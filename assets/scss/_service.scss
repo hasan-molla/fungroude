@@ -488,11 +488,13 @@
     display: block;
     padding: 10px 15px;
     color: #6b6565;
+	position: relative;
 }
 .panel-default > .panel-heading a:after {
     content: "";
-    position: relative;
-    top: -5px;
+    position: absolute;
+    top: 4px;
+	right: 10px;
     display: inline-block;
     font-family: 'Glyphicons Halflings';
     font-style: normal;
@@ -545,7 +547,6 @@
 	margin: auto;
 	position: fixed;
 	top: 0;
-	boxshadow: 10px 10px 10px 10px black;
 }
 .popup-bg {
 	background: rgba(0,0,0,0.8);
@@ -563,8 +564,36 @@
 	height: auto;
 }
 
-
 /* Video - Section  - End
+=========================== */
+
+
+/* Decumnet - Section  - End
+=========================== */
+.document_section{
+	background-color: #62b815;
+}
+.sf-services-tab ul li{
+	list-style: none;
+}
+.sf-custom-tabs .nav-tabs > li > a {
+	border-radius: 0;
+	-webkit-border-radius: 0px;
+	padding: 15px 25px;
+	border: none;
+	position: relative;
+	font-size: 20px;
+	color: #fff;
+	opacity: 0.5;
+	font-weight: bold;	
+}
+.sf-custom-tabs .nav-tabs > li.active > a {
+	color: #fff;
+	opacity: 1;
+}
+
+
+/* Decumnet - Section  - End
 =========================== */
 
 
