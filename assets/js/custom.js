@@ -137,6 +137,15 @@
   // --------------------------------------------------
 
 
+  // Service Page filtering - start
+  //---------------------------------------------------
+  $(document).ready(function(){
+    $('#slider').slider();
+  })
+
+// Service Page filtering - end
+  //---------------------------------------------------
+
   // popup video & images - start
   // --------------------------------------------------
   $('.popup_video').magnificPopup({
